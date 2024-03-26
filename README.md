@@ -1,4 +1,4 @@
-# advanced_python
+# advanced python terimleri
 
 - args
 
