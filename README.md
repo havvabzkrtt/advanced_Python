@@ -2,11 +2,11 @@
 
 - args
 
-Fonksiyonun parametresini *args olarak tanımladığımızda : Input olarak list/tuple gibi yapılar vermeden de değişken sayılı input'u sıralı olarak fonksiyona verebilmemizi sağlar.
+Fonksiyonun parametresi *args olarak tanımladığında : Input olarak list/tuple gibi yapılar vermeden de değişken sayılı input'u sıralı olarak fonksiyona verebilebilmesini sağlar.
 
 - kwargs
 
-Fonksiyonun parametresini **kwargs olarak verdiğimizde : Değişken sayıda keyword argument verebilmemizi sağlar.
+Fonksiyonun parametresi **kwargs olarak verildiğinde : Değişken sayıda keyword argument verebilebilmesini sağlar.
 
 - closure
 
