@@ -26,7 +26,7 @@ Method: Class içerisinde tanımlanan fonksiyonlar.
 
 Araba taralamak istiyoruz: 
 
-    class     : arabanın planı class olur (özellikleri, yapacağı şeyler) (rengi, modeli farklı olur)
+    class     : arabanın planı class olur (özellikleri, yapacağı şeyler) 
     
     obje      : plandan oluşturulan arabalar objeler olur 
     
