@@ -1,4 +1,4 @@
-# advanced python terimleri
+# ileri python terimleri
 
 - args
 
@@ -19,9 +19,16 @@ Bir fonksiyon gibi düşünülebilir. Decorator'lar başka fonksiyonları input 
 - Class
 
 Class mantığı hem fonksiyonalite hem de veriyi bir arada tutma yoludur.
+
 Attribute: Class içerisinde tanımlanan variable'lar.
+
 Method: Class içerisinde tanımlanan fonksiyonlar.
+
 Araba taralamak istiyoruz: 
+
     class     : arabanın planı class olur (özellikleri, yapacağı şeyler) (rengi, modeli farklı olur)
+    
     obje      : plandan oluşturulan arabalar objeler olur 
+    
     instance  : o an hali hazırda incelenen araba objesi olur 
+    
