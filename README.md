@@ -1,4 +1,4 @@
-## ileri python terimleri
+## İleri Python Terimleri
 
 # Args
 
