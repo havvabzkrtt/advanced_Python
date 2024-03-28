@@ -1,6 +1,6 @@
 ## İleri Python Terimleri
 
-# Args
+## Args
 
 - Fonksiyonun parametresi *args olarak tanımladığında : Input olarak list/tuple gibi yapılar vermeden de değişken sayılı input'u sıralı olarak fonksiyona verebilebilmesini sağlar.
 
