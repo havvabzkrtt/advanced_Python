@@ -1,28 +1,28 @@
-# ileri python terimleri
+## ileri python terimleri
 
-- Args
+# Args
 
-Fonksiyonun parametresi *args olarak tanımladığında : Input olarak list/tuple gibi yapılar vermeden de değişken sayılı input'u sıralı olarak fonksiyona verebilebilmesini sağlar.
+- Fonksiyonun parametresi *args olarak tanımladığında : Input olarak list/tuple gibi yapılar vermeden de değişken sayılı input'u sıralı olarak fonksiyona verebilebilmesini sağlar.
 
-- Kwargs
+# Kwargs
 
-Fonksiyonun parametresi **kwargs olarak verildiğinde : Değişken sayıda keyword argument verebilebilmesini sağlar.
+- Fonksiyonun parametresi **kwargs olarak verildiğinde : Değişken sayıda keyword argument verebilebilmesini sağlar.
 
-- Closure
+# Closure
 
-İç içe fonksiyonlarda outer(dış) fonksiyonu çağırdıktan sonra bile inner(iç) fonksiyonun, outer fonksiyon scope'una erişebilmesidir.
+- İç içe fonksiyonlarda outer(dış) fonksiyonu çağırdıktan sonra bile inner(iç) fonksiyonun, outer fonksiyon scope'una erişebilmesidir.
 
-- Decorator
+# Decorator
 
-Bir fonksiyon gibi düşünülebilir. Decorator'lar başka fonksiyonları input (parametre) olarak kabul edip yeni bir fonksiyonalite ile yeni bir fonksiyon döndüren yapılardır. Orjinal olarak verdiğimiz input fonksiyonu değiştirmeyecek.
+- Bir fonksiyon gibi düşünülebilir. Decorator'lar başka fonksiyonları input (parametre) olarak kabul edip yeni bir fonksiyonalite ile yeni bir fonksiyon döndüren yapılardır. Orjinal olarak verdiğimiz input fonksiyonu değiştirmeyecek.
 
-- Class
+# Class
 
-Class mantığı hem fonksiyonalite hem de veriyi bir arada tutma yoludur.
+- Class mantığı hem fonksiyonalite hem de veriyi bir arada tutma yoludur.
 
-Attribute: Class içerisinde tanımlanan variable'lar.
+- Attribute: Class içerisinde tanımlanan variable'lar.
 
-Method: Class içerisinde tanımlanan fonksiyonlar.
+- Method: Class içerisinde tanımlanan fonksiyonlar.
 
 Araba taralamak istiyoruz: 
 
@@ -32,3 +32,7 @@ Araba taralamak istiyoruz:
     
     instance  : o an hali hazırda incelenen araba objesi olur 
     
+ 
+# Class Variable
+
+- Class Variable'lar class'tan yaratılan tüm objelerde aynı olarak paylaşılan variable'lardır, Instance Variable'lar instance'a özeldir.
