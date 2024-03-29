@@ -36,3 +36,14 @@ Araba taralamak istiyoruz:
 ## Class Variable
 
 - Class Variable'lar class'tan yaratılan tüm objelerde aynı olarak paylaşılan variable'lardır, Instance Variable'lar instance'a özeldir.
+
+
+## Class & Static Method
+
+- Class Method
+
+İlk input'u, oyomatik olarak class referansı aktarılan methodlardır.
+
+- Static Method
+
+Class'ların içerisinde otomatik olarak hiçbir input almayan methodlar'dır.
