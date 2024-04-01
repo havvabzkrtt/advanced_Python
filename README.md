@@ -68,4 +68,4 @@ Class'ların içerisinde otomatik olarak hiçbir input almayan methodlar'dır.
 
 - Bunlara "dunder method" da denir.
 
-- Magic Method'dan bazıları: __init__(), __str__(), __add__(), __len__()
+- Magic Method'lardan bazıları: __init__(), __str__(), __add__(), __len__()
