@@ -47,3 +47,25 @@ Araba taralamak istiyoruz:
 - Static Method
 
 Class'ların içerisinde otomatik olarak hiçbir input almayan methodlar'dır.
+
+
+## Inheritance
+
+- Inheritance belirtilen başka classlardaki method veya attribute'lara erişilmesini sağlar.
+
+- Inheritance veren classa "super class" veya "parent class", inheritance alan classa "subclass" veya "child" denir.
+
+- Subclass, superclas'tan dallandıpı için onun tüm attribute'larına ve methodlarına erişebilir.
+
+- Building Functions: isinstance(obje, class), issubclass(subclass, superclas)
+
+
+## Magic Method
+
+- Magic Method'ları kullanırken bazı built-in davranışları değiştirebiliriz. 
+
+- Magic Method'lar "__" ile çerilidir. (__MagicMethod__) 
+
+- Bunlara "dunder method" da denir.
+
+- Magic Method'dan bazıları: __init__(), __str__(), __add__(), __len__()
