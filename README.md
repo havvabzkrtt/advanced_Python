@@ -64,7 +64,7 @@ Class'ların içerisinde otomatik olarak hiçbir input almayan methodlar'dır.
 
 - Magic Method'ları kullanırken bazı built-in davranışları değiştirebiliriz. 
 
-- Magic Method'lar "__" ile çerilidir. (__MagicMethod__) 
+- Magic Method'lar "__" ile çevrilidir. (__MagicMethod__) 
 
 - Bunlara "dunder method" da denir.
 
