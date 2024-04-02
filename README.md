@@ -69,3 +69,16 @@ Class'ların içerisinde otomatik olarak hiçbir input almayan methodlar'dır.
 - Bunlara "dunder method" da denir.
 
 - Magic Method'lardan bazıları: __init__(), __str__(), __add__(), __len__()
+
+
+## Generator
+
+- Generator'ler, fonksiyonlar gibi tanımlanırlar. Ama değer döndürülürken "return" yazmak yerine "yield" yazılır, bu belli bir fonksiyonalite kazandırır.
+
+- "return" keyword'ünden sonra fonksiyonlar kapanır. "yield" keyword'ünden sonra generator kapanmaz yeni bir işlem yapınca o işlemin sonucunu döndürür. Eleman verebilcek halde olduğu sürece işleme devam eder.
+
+- Kısa yoldan iterator yaratılmasına olanak sağlar.
+
+- Uğraşılan az elemanlar olunca çok farkı anlaşılmayabilir ama fazal sayıda elemanlaral uğraşılıyorsa, hepsini bir anda hafızada tutmaya çalışmak çok yer kaplayabilir. Generator'lar istendiğinde elemanları döndürdükleri için bu hafıza sorununa iyi gelebilir. (Bir anda 1 milyon tane değerin aynı anda döndürülmesi istenmiyor da ihtiyaç oldukça bir sonraki elemanın döndürülmesi isteniyor.)
+
+- "list(generator)" yapıldığında bu özelliğini kaybeder, bütün veriyi aynı anda bir liste olarak döndürür.
